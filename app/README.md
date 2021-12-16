@@ -23,7 +23,7 @@
 
 ![env](https://i.ibb.co/9cLPHnF/screenshot2.png)
 
->Após configurar a chave basta digitar o comando subir o container:
+>Após configurar a chave basta digitar o comando para subir o container:
 
 ```
 docker-compose up
