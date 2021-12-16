@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  hubspot-service:
+    build: 
+      context: .
+    restart: always
+    container_name: hubspot-service
+    volumes:
+      - .:/usr/share/app
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    environment:
+      - API_KEY=f1d88bf7-75ef-48cc-8333-e68c2f15532e
+      - PORT=3000
+    networks:
+      - axur-challenge-network
+networks:
+  axur-challenge-network:
+    driver: bridge
