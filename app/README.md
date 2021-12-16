@@ -16,20 +16,14 @@
 > Primeiro precisamos ir no arquivo docker-compose e adicionar a sua chave de API fornecida pela Hubspot:
 
 
-![env](https://i.ibb.co/H2fk7Wt/screenshot1.png)
+![env](https://i.ibb.co/nsvBQtW/screenshot1.png)
 
 
 >Obs: Por padrão a porta configurada é a 3000, caso queira alterar basta alterar as portas no arquivo docker-compose:
 
-![env](https://i.ibb.co/8dQRF0n/screenshot2.png)
+![env](https://i.ibb.co/9cLPHnF/screenshot2.png)
 
->Após configurar a chave precisamos fazer o build da imagem:
-
-```
-docker-compose build
-```
-
->Ao terminar o build basta executar o container:
+>Após configurar a chave basta digitar o comando subir o container:
 
 ```
 docker-compose up
