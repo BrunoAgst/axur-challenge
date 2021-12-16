@@ -13,7 +13,7 @@
 ### Docker
 
 
-> Primeiro é preciso ir no arquivo docker-compose e adicionar a sua chave de API fornecida pela Hubspot:
+> Primeiro precisamos ir no arquivo docker-compose e adicionar a sua chave de API fornecida pela Hubspot:
 
 
 ![env](https://i.ibb.co/H2fk7Wt/screenshot1.png)
@@ -39,7 +39,7 @@ docker-compose up
 
 <blockquote>
     <p>
-        Primeiro é preciso configurar o arquivo .env, você precisa informar a chave de api e porta. Caso não queira configurar a porta, por padrão será executado na 3000. 
+        Primeiro precisamos configurar o arquivo .env, você precisa informar a chave de api e porta. Caso não queira configurar a porta, por padrão será executado na 3000. 
     </p>
     <p>Existem três modos de executar a aplicação:</p>
     <p> <strong>Produção</strong>: <code> npm run start </code> </p> 
